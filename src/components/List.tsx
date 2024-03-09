@@ -12,7 +12,6 @@ const List = ({ people, filtered }: ListProps) => {
     }
     //return the item which contains the user input
     else {
-      console.log(el.name.toLowerCase().includes(filtered));
       return el.name.toLowerCase().includes(filtered);
     }
   });
